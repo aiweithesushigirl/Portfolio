@@ -1,0 +1,565 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+
+/*Typography*/
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 2.5em;
+    /*    Set the font in white color */
+    color: #000;
+}
+
+
+/*Links*/
+
+a {
+    /*    Set the link in color */
+    color: #e85c92;
+    /*    Set a transition in colors for links*/
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+
+}
+a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #57249d;
+}
+a:focus {
+    outline: none;
+    /*    Set the space between an outline and the edge or border of an link as 0.*/
+    
+    outline-offset: 0;
+}
+
+/*Lists*/
+ul {
+    list-style: none;
+}
+
+/*Headings*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    color: #686868;
+}
+h2 {
+    font-size: 25px;
+    color: #686868;
+}
+h3 {
+    font-size: 20px;
+}
+
+#home {
+    /*    Set the text color as white*/
+    
+    color: white;
+    /*    Set the background color as white*/
+    
+    background-color: white;
+    font-family: 'Amatic SC', sans-serif;
+    /*The following two lines are going to add a background image to the top header area*/
+    
+    background: url(../img/mintgreen.jpg) no-repeat center;
+    background-size: cover;
+    /*The padding for bottom and top settings will expand the height of header area*/
+    
+    padding-bottom: 300px;
+    padding-top: 500px;
+}
+#home h1 {
+    /*    Set the h1 color as white*/
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    text-align: center
+}
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+div{
+    background-color: transparent;
+/*    width: 600px;*/
+    border: 2px lightgray;
+    padding:0;
+/*    margin: 5px;*/
+}
+#about{
+    padding-top: 150px;
+    backface-visibility: hidden;
+    background-color: white;
+}
+
+#about img{
+    margin-top: 30px;
+    margin-left: 30px
+}
+.btn{
+    backface-visibility: visible;
+    background-color: white;
+    font-size: 20px
+}
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/mintgreen.jpg");
+    min-height: 90%;
+}
+  .navbar {
+      font-family: "Amatic SC", sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 20px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+.w3-text-white{
+    border: 2px solid white;
+    padding: 40px;
+}
+#about{
+    background: url(../img/pencil.png) no-repeat right;
+    background-size: 350px 350px;
+    
+    padding-top: 150px;
+/*    backface-visibility: hidden;*/
+/*    background-color: white;*/
+    padding-bottom: : 30px
+}
+
+#about img{
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+.w3-btn{
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+#portfolio{
+    padding-top: 120px;
+/*
+    background: url(../img/paperbg.jpg) no-repeat right;
+    background-size: 1200px 2400px;
+*/
+  
+    
+}
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    /*    padding: 0;*/
+    /*    enable the padding equals 0 setting to create a seamless tile layouts*/
+}
+
+
+/*set the portflio link a as a block and center to the portfolio item container*/
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin top: 40px;
+}
+
+/*set the caption in default mode*/
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: lightgray;
+    /*    adjust the color of roll over effect*/
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+
+/*set the opacity of caption*/
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+    color: lightgray;
+}
+
+
+/*set the caption content, such as icon or title*/
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    /* adjust the top value if you want to show the name of title*/
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/*set the top space for the icon*/
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+
+/*set the margin for h3 and h4, if they are used inside the caption area*/
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+/*    background-color: black;*/
+}
+
+/*Set different layouts for small, medium and large screen*/
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) { 
+    #home {
+    /*    Set the text color as white*/
+    
+    color: white;
+    /*    Set the background color as white*/
+    
+    background-color: white;
+    font-family: 'Amatic SC', sans-serif;
+    /*The following two lines are going to add a background image to the top header area*/
+    
+    background: url(../img/mintgreen.jpg) no-repeat center;
+    background-size: cover;
+    /*The padding for bottom and top settings will expand the height of header area*/
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+    #about{
+    background-color: white;
+    padding-top: 10px;
+/*    backface-visibility: hidden;*/
+/*    background-color: white;*/
+    padding-bottom: : 10px
+}
+
+        
+/* The following code is to change the vertical space when screen size is bigger than mobile screen.*/
+
+/*    set the vertical space between the thumbnails, if using col-sm-offset-* class name to divs, the margin setting on left and right should be disabled. So change the following code to margin-bottom: 30px;*/
+#portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+#contact {
+    color: white;
+    /*    change the background image or just use a color*/
+    background: #AFD9D5;
+    background-size: cover;
+    padding: 20px;
+    height:100%;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact h3 {
+    font-size: 2.5em;
+    color:white;
+}
+
+#contact .row {
+    margin-bottom: 10px;
+}
+
+.email {
+    padding: 10px;
+    font-size: 2em;
+    /*    set the border for the email information*/
+    border: 2px white solid;
+}
+
+.social {
+    text-align: center;
+    color: #e85c92;
+/*    color: darkgreen;*/
+    display: inline-grid;
+/*    background: darkgray;*/
+    margin-top: 5px;
+    border-radius: 20px;
+    width: 20px;
+    font-size: 1em;
+    height: 50px;
+    /*adjust the line-height value to center the icons in center*/
+    line-height: 3.45em;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.social:hover {
+    /*    hover color*/
+    background: white;
+}
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+.portfolio-modal .modal-content {
+    /*Change the paragraph font color*/
+    color: black;
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*Change the background-color*/
+    background-color: white;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    /*Line color*/
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    /*Line color*/
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.portfolio-modal .modal-footer {
+    border: none;
+}
+
+.portfolio-modal .modal-footer button {
+    background-color: transparent;
+    color: black;
+    border: black 1px solid;
+    font-size: 20px;
+    padding: 5px 14px;
+}
+
+.modal {
+    overflow: scroll;
+}
+
+.form-header, .form-subHeader,.form-line,.form-label.form-label,.form-submit-button {
+    font-family : 'Arvo', serif;
+/*    change the font family value*/
+}
+
+/*contact*/
+
+#contact {
+    color: white;
+    /*    change the background image or just use a color*/
+    background: #AFD9D5;
+    background-size: cover;
+/*    padding: 50px;*/
+    height:100%;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact h3 {
+    font-size: 2.5em;
+    color:white;
+}
+
+#contact .row {
+    margin-bottom: 50px;
+}
+
+.email {
+    padding: 1px;
+    font-size: 2em;
+    /*    set the border for the email information*/
+    border: 2px white solid;
+}
+
+.social {
+    text-align: center;
+    color: #e85c92;
+/*    color: darkgreen;*/
+    display: inline-block;
+/*    background: darkgray;*/
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 75px;
+    font-size: 1em;
+    height: 75px;
+    /*adjust the line-height value to center the icons in center*/
+    line-height: 3.45em;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.social:hover {
+    /*    hover color*/
+    background: white;
+}
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Layer_2 {
+  background-image: url("images/Layer 2.png");
+  position: absolute;
+  left: 178px;
+  top: 0px;
+  width: 844px;
+  height: 2400px;
+  z-index: 3;
+}
+
+
+        
+    
+
+
+
+
